@@ -1,0 +1,44 @@
+# Core API
+fastapi==0.110.0
+uvicorn==0.27.1
+
+# LangGraph & LangChain
+langgraph
+langchain
+langchain-core
+
+# LLM Provider (choose one)
+groq
+# OR if using Gemini later
+# google-generativeai==0.4.1
+
+# Data & Validation
+pydantic==2.6.4
+python-dotenv==1.0.1
+pytz
+
+# Google Calendar & OAuth (Phase 6)
+# google-api-python-client==2.121.0
+# google-auth==2.28.1
+# google-auth-oauthlib==1.2.0
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+
+# Optional (session storage – add later)
+redis==5.0.1
+
+pandas
+
+
+#UI
+streamlit
+
+#testing
+langsmith 
+# langchain 
+# langchain-core
+
+#visualization
+langgraph-cli
